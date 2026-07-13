@@ -6,7 +6,17 @@ from app.ingestion.chunkers.index import chunk_documents
 from langchain_chroma import Chroma
 from rank_bm25 import BM25Okapi
 from langchain_core.documents import Document
+from pathlib import Path
+import logging
 
+BASE_DIRECTORY = Path(__file__).resolve().parent.parent
+TRACKING_FILE = BASE_DIRECTORY/'monitoring'/'tracing.json'
+logging.basicConfig(
+   filename=str(TRACKING_FILE),
+   level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    force=True
+)
 def tokenizer(text):
   return re.findall(r'\w+', text.lower())
 
@@ -23,6 +33,7 @@ def reciprocal_rank_fusion(result_list , k=60):
 
 
 def building_indexes():
+    logging.info("Retrieving vector database ")
     embeddings = EmbeddingFactory.create(
         "sentence-transformer",
         EMBEDDING_MODEL
@@ -33,23 +44,25 @@ def building_indexes():
     )
 
     if vector_store._collection.count() == 0:
+        logging.error("Vector database is empty")
         raise ValueError("Vector database is empty.")
     data = vector_store.get(include=["documents", "metadatas"])
-
+    logging.info("Chunks fetched")
     chunks = [
         Document(page_content=doc, metadata=meta)
         for doc, meta in zip(data["documents"], data["metadatas"])
     ]
-
+    logging.info("Corpus ready")
     corpus = [doc.page_content for doc in chunks]
 
     if not corpus:
+        logging.error("No chunks found in the vector database")
         raise ValueError("No chunks found in the vector database.")
 
     bm25 = BM25Okapi([tokenizer(text) for text in corpus])
 
     print(f"Loaded {len(chunks)} chunks from Chroma.")
-
+    logging.info(f"Loaded {len(chunks)} chunks from Chroma.")
     return vector_store, bm25, chunks
 
 

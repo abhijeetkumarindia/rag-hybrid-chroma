@@ -7,6 +7,7 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from prometheus_fastapi_instrumentator import Instrumentator
 from app.api import router as api_router
+from app.middleware.request_logger import log_response
 from dotenv import load_dotenv 
 load_dotenv()
 
@@ -25,6 +26,7 @@ async def lifespan(app: FastAPI):
 
 def create_app() -> FastAPI:
     app = FastAPI(title="rag-hybrid-chroma REST AI", lifespan=lifespan)
+    app.middleware('http')(log_response)
     # main API router (includes v1 sub-routers)
     app.include_router(api_router.api_router)
     Instrumentator().instrument(app).expose(app)
