@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-
+from prometheus_fastapi_instrumentator import Instrumentator
 from app.api import router as api_router
 from dotenv import load_dotenv 
 load_dotenv()
@@ -27,7 +27,7 @@ def create_app() -> FastAPI:
     app = FastAPI(title="rag-hybrid-chroma REST AI", lifespan=lifespan)
     # main API router (includes v1 sub-routers)
     app.include_router(api_router.api_router)
-
+    Instrumentator().instrument(app).expose(app)
     # CORS (configure using CORS_ALLOWED_ORIGINS env var, comma-separated)
     allowed = os.getenv("CORS_ALLOWED_ORIGINS", "*")
     if allowed.strip() == "*":
