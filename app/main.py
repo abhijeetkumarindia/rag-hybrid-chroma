@@ -7,7 +7,8 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api import router as api_router
-
+from dotenv import load_dotenv 
+load_dotenv()
 
 # configure logging
 logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
@@ -24,6 +25,7 @@ async def lifespan(app: FastAPI):
 
 def create_app() -> FastAPI:
     app = FastAPI(title="rag-hybrid-chroma REST AI", lifespan=lifespan)
+    # main API router (includes v1 sub-routers)
     app.include_router(api_router.api_router)
 
     # CORS (configure using CORS_ALLOWED_ORIGINS env var, comma-separated)
