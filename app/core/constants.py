@@ -1,7 +1,7 @@
 import os
 
 EMBEDDING_MODEL='sentence-transformers/all-MiniLM-L6-v2'
-RE_RANKING_MODEL='cross-encoder/ms-marco-MiniLM-L-6-v2'
+RE_RANKING_MODEL='cross-encoder/ms-marco-TinyBERT-L-2-v2'
 CHUNK_SIZE=400
 CHUNK_OVERLAP=150
 VECTOR_TOP_K=10
