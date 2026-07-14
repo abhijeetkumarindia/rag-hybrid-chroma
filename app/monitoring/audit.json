@@ -64,5 +64,855 @@
         "status_code": 200,
         "duration_ms": 4.63,
         "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:31:01.183026+00:00",
+        "path": "/",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 0.62,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:31:08.701878+00:00",
+        "path": "/docs",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.29,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:31:08.811884+00:00",
+        "path": "/openapi.json",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 4.26,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:31:22.975394+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your name "
+        },
+        "status_code": 200,
+        "duration_ms": 17.47,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:32:31.441896+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your keys skiills "
+        },
+        "status_code": 200,
+        "duration_ms": 2.56,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:41:49.240238+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your keys skiills "
+        },
+        "status_code": 200,
+        "duration_ms": 12.12,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:42:23.765622+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements "
+        },
+        "status_code": 200,
+        "duration_ms": 2.32,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:48:22.638452+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 1.35,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:48:53.136336+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 11.85,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:52:21.314110+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 1.92,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:52:59.056641+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 8.04,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:53:23.217389+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 2.39,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:55:09.821915+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 1.65,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:55:35.086897+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 7.5,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:57:29.545137+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 8.34,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T04:58:25.864007+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 13.89,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:00:39.068205+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 454.34,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:01:12.915322+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 1.5,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:01:17.614749+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is your achivements tell me "
+        },
+        "status_code": 200,
+        "duration_ms": 1.02,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:01:39.423049+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is the primary skills of abhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 1.65,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:02:01.166325+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is key roll and responsibilty of abnhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 1.5,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:04:33.750029+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is certification of abhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 1.74,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:04:48.045955+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is health of abhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 1.18,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:05:03.162015+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is roll number of abhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 1.45,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:05:41.874872+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "does abhijeet has been done with medical checkup"
+        },
+        "status_code": 200,
+        "duration_ms": 2.42,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:14:58.310859+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 2.7,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:19:20.393603+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is abhijeet health"
+        },
+        "status_code": 200,
+        "duration_ms": 2.02,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:19:34.492176+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is keys skills of abhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 1.53,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:21:19.108702+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "does abhijeet has been worked on bagisto"
+        },
+        "status_code": 200,
+        "duration_ms": 1.72,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:23:23.459563+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "does abhijeet has been worked on bagisto"
+        },
+        "status_code": 200,
+        "duration_ms": 1.37,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:23:36.733042+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "does abhijeet has been worked on bagisto ?"
+        },
+        "status_code": 200,
+        "duration_ms": 1.82,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:24:07.780171+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is abhijeet medical certications"
+        },
+        "status_code": 200,
+        "duration_ms": 1.62,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:26:11.605904+00:00",
+        "path": "/api/v1/upload",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 14.85,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:26:22.297368+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.49,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:28:36.188613+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is abhijeet medical certications"
+        },
+        "status_code": 200,
+        "duration_ms": 2.53,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:28:50.654120+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is salary of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 1.15,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:28:54.204819+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is salary of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 1.56,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:29:06.384080+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 2.22,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:29:32.450828+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.41,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T05:36:28.351896+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 2.68,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:23:27.866957+00:00",
+        "path": "/",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 0.41,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:23:44.498686+00:00",
+        "path": "/",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 3.16,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:23:44.897221+00:00",
+        "path": "/",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 0.26,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:23:53.153671+00:00",
+        "path": "/docs",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.21,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:23:53.266937+00:00",
+        "path": "/openapi.json",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 6.67,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:24:01.456166+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.86,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:24:17.888964+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.71,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:24:27.702924+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.37,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:28:26.756021+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet"
+        },
+        "status_code": 200,
+        "duration_ms": 469.56,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:29:05.252521+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is key skills of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 1.5,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:33:47.465232+00:00",
+        "path": "/",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 0.43,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:33:54.387139+00:00",
+        "path": "/",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 0.55,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:33:54.574001+00:00",
+        "path": "/favicon.ico",
+        "query": {},
+        "status_code": 404,
+        "duration_ms": 0.54,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:33:58.055073+00:00",
+        "path": "/docs",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.39,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:34:00.830375+00:00",
+        "path": "/openapi.json",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 3.37,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:35:08.391835+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.66,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:36:27.149102+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is key skills of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 477.77,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:36:50.494979+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 1.09,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:52:58.088440+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 4.89,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:53:02.673784+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 1.19,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T06:53:09.605885+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.36,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:00:33.348347+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 2.41,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:18:08.485932+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is ctc of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 13.87,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:21:11.807163+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is aCHIVEMNT of abhijeet "
+        },
+        "status_code": 200,
+        "duration_ms": 2.04,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:26:10.316912+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.48,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:31:49.317772+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 1.36,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:35:35.993280+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 2.59,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:36:25.937762+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.68,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:37:13.865376+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.42,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:38:04.394871+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.63,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:39:34.490586+00:00",
+        "path": "/docs",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.44,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:39:34.646176+00:00",
+        "path": "/openapi.json",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 7.82,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:39:47.538586+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is the salary "
+        },
+        "status_code": 200,
+        "duration_ms": 533.17,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:44:12.658976+00:00",
+        "path": "/api/v1/upload",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 24.38,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:46:12.731650+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 1.34,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:50:11.573341+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is generative ai"
+        },
+        "status_code": 200,
+        "duration_ms": 453.51,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:52:25.866120+00:00",
+        "path": "/docs",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 0.92,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:52:26.073594+00:00",
+        "path": "/openapi.json",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 6.27,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:52:34.481957+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "How do you evaluate the quality of LLM outputs? Explain"
+        },
+        "status_code": 200,
+        "duration_ms": 1.18,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:55:08.244728+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "How do you prepare datasets for fine-tuning LLMs?"
+        },
+        "status_code": 200,
+        "duration_ms": 1.56,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:56:35.242197+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 0.96,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:57:33.510636+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 2.63,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T07:57:57.952254+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 1.44,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:01:04.340065+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 520.61,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:05:40.686769+00:00",
+        "path": "/api/v1/embedding-actions/initial-indexes",
+        "query": {},
+        "status_code": 200,
+        "duration_ms": 1.56,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:06:55.996457+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 555.56,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:08:31.793675+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 1.62,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:11:02.314666+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 1.68,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:12:53.582653+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 527.89,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:13:42.701339+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf"
+        },
+        "status_code": 200,
+        "duration_ms": 2.42,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:13:49.833482+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf ?"
+        },
+        "status_code": 200,
+        "duration_ms": 1.21,
+        "client": "127.0.0.1"
+    },
+    {
+        "timestamp": "2026-07-14T08:15:31.519656+00:00",
+        "path": "/api/v1/chat/stream",
+        "query": {
+            "query": "what is rlhf ?"
+        },
+        "status_code": 200,
+        "duration_ms": 458.61,
+        "client": "127.0.0.1"
     }
 ]

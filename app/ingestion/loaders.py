@@ -3,11 +3,6 @@ import logging
 from pathlib import Path
 
 
-try:
-    from langchain.schema import Document as LangchainDocument
-except Exception:
-    LangchainDocument = None
-
 
 def load_doc(directory_path, extension=None):
     p = Path(directory_path)
@@ -95,5 +90,5 @@ def load_doc(directory_path, extension=None):
                 logging.exception("Error loading documents with extension %s from %s", exe, p)
                 # continue with other extensions / files
                 continue
-
+    print(documents ,'===')
     return documents

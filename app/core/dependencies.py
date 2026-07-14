@@ -1,3 +1,4 @@
+import os
 import logging
 import re
 from functools import lru_cache
@@ -11,7 +12,6 @@ from app.core.constants import DB_PATH, EMBEDDING_MODEL, PDF_DIRECTORY
 from app.embeddings.factory import EmbeddingFactory
 from app.ingestion.chunkers.index import chunk_documents
 from app.ingestion.loaders import load_doc
-
 
 BASE_DIRECTORY = Path(__file__).resolve().parent.parent
 TRACKING_FILE = BASE_DIRECTORY / "monitoring" / "tracing.json"
@@ -61,6 +61,7 @@ def building_indexes():
     Load the vector database and build the BM25 index once.
     The result is cached and reused for subsequent requests.
     """
+
     logging.info("Loading vector database...")
 
     embeddings = get_embeddings()
@@ -100,13 +101,9 @@ def building_indexes():
 
 
 def initial_indexes(pdf_path=PDF_DIRECTORY):
-    """
-    Create the vector database if it does not already exist.
-    """
-
     docs = load_doc(pdf_path)
     chunks = chunk_documents(docs)
-
+    
     if not chunks:
         raise ValueError("No document chunks found to index.")
 

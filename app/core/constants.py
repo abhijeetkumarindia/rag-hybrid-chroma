@@ -2,11 +2,11 @@ import os
 
 EMBEDDING_MODEL='sentence-transformers/all-MiniLM-L6-v2'
 RE_RANKING_MODEL='cross-encoder/ms-marco-TinyBERT-L-2-v2'
-CHUNK_SIZE=400
-CHUNK_OVERLAP=150
-VECTOR_TOP_K=10
-BM25_TOP_K=10
-FINAL_TOP_K=10
+CHUNK_SIZE=200
+CHUNK_OVERLAP=50
+VECTOR_TOP_K=3
+BM25_TOP_K=3
+FINAL_TOP_K=2
 
 PDF_DIRECTORY=os.path.join(os.getcwd(), "uploads")
 INDEX_NAME='resume-rag'
