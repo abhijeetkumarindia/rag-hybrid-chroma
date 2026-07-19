@@ -15,6 +15,5 @@ chromadb
 sentence-transformers>=5.6.0
 rank-bm25
 unstructured[pdf]
-prometheus-fastapi-instrumentator
 
 websockets>=10.4

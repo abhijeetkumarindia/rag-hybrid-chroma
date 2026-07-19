@@ -5,7 +5,6 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from prometheus_fastapi_instrumentator import Instrumentator
 from app.api import router as api_router
 from app.middleware.request_logger import log_response
 from dotenv import load_dotenv 
@@ -29,7 +28,6 @@ def create_app() -> FastAPI:
     app.middleware('http')(log_response)
     # main API router (includes v1 sub-routers)
     app.include_router(api_router.api_router)
-    Instrumentator().instrument(app).expose(app)
     # CORS (configure using CORS_ALLOWED_ORIGINS env var, comma-separated)
     allowed = os.getenv("CORS_ALLOWED_ORIGINS", "*")
     if allowed.strip() == "*":
